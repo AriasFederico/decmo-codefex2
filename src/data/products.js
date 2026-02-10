@@ -5,25 +5,25 @@ import product02 from '../../public/product02.webp';
 export const listaDeServicios = [
 	{
 		image: product00,
-		name: 'Premium Coffee Beans',
+		name: 'Personalized Fitness Coaching',
 		description:
-			'Ethically sourced, freshly roasted beans from around the world.',
+			'One-on-one sessions with certified trainers. Custom workouts, nutrition guidance, and progress tracking to maximize your results.',
 		price: '$18.99',
 		category: '',
 	},
 	{
 		image: product01,
-		name: 'Artisan Pastries',
+		name: 'Dynamic Group Workouts',
 		description:
-			'Freshly baked croissants, muffins, and seasonal treats made daily.',
+			'High-energy classes including HIIT, spin, yoga, and functional training. Motivating atmosphere with expert instructors.',
 		price: '$3.99',
 		category: '',
 	},
 	{
 		image: product02,
-		name: 'Specialty Drinks',
+		name: 'Advanced Recovery Services',
 		description:
-			'Expertly crafted lattes, cappuccinos, and seasonal specialties.',
+			'Post-workout recovery with massage therapy, cryotherapy, and stretching sessions to enhance performance and prevent injuries..',
 		price: '$4.50',
 		category: '',
 	},

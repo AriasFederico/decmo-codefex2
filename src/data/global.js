@@ -3,8 +3,8 @@ import hero from '../../public/hero.webp';
 
 export const global = {
 	logo: {
-		image: 'Brew & Bean',
-		altText: 'Brew & Bean',
+		image: 'GymFusion ',
+		altText: 'GymFusion ',
 		url: '#',
 	},
 
@@ -23,9 +23,9 @@ export const global = {
 		span: 'PUSH ',
 		endTitle: 'YOUR LIMITS',
 		description:
-			'Experience the finest artisanal coffee, freshly roasted beans, and handcrafted beverages in a warm, welcoming atmosphere that feels like home.',
+			'For fitness coaching to customized nutrition plans, every program is designed with expertise and personalized attention to reach your goals.',
 		ctaButton: [
-			{ text: 'View Menu', url: '#servicios', variant: '', id: 1 },
+			{ text: 'View Services', url: '#servicios', variant: '', id: 1 },
 			{ text: 'Contact Us', url: '#', variant: 'secondary', id: 2 },
 		],
 		image: hero,
@@ -38,17 +38,17 @@ export const global = {
 	},
 
 	about: {
-		title: 'About Brew & Bean', // CAMBIAR AL NOMBRE DEL NEGOCIO
+		title: 'About GymFusion', // CAMBIAR AL NOMBRE DEL NEGOCIO
 
 		description: [
-			'Founded in 2018, Brew & Bean started as a dream to bring exceptional coffee culture to our community. We believe that every cup tells a story - from the farmers who grow our beans to the moment it reaches your hands.',
-			`Our master roasters work tirelessly to bring out the unique characteristics of each origin, while our baristas craft every drink with precision and care. We're not just a coffee shop; we're a gathering place for friends, remote workers, and coffee enthusiasts alike.`,
+			'Founded in 2022, Iron Forge started as a vision to bring elite-level fitness to our neighborhood. We believe that every workout writes a chapter – from the first drop of sweat to the personal record you break.',
+			`Our certified trainers work passionately to bring out the unique potential of each member, while our coaches guide every session with dedication and knowledge. We're not just a gym; we're a community hub for athletes, fitness beginners, and everyone chasing their best self.`,
 		],
 		mission: {
 			image: mission,
 			title: 'Our Mission',
 			description:
-				'To create meaningful connections through exceptional coffee, supporting both our local community and coffee-growing regions around the world with ethical sourcing and fair trade practices.',
+				'To forge stronger lives through exceptional training, supporting both individual growth and community wellness with science-backed methods and an inclusive environment.',
 		},
 	},
 
@@ -77,7 +77,7 @@ export const global = {
 	},
 
 	footer: {
-		description: 'Crafting perfect moments, one cup at a time',
+		description: 'Forging stronger bodies, one rep at a time.',
 		socialMedia: [
 			{
 				icon: 'logo-instagram',
