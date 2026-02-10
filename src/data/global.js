@@ -10,9 +10,9 @@ export const global = {
 
 	header: {
 		navigationLinks: [
-			{ label: 'Home', url: '#hero' },
-			{ label: 'Products', url: '#products' },
-			{ label: 'About Us', url: '#about' },
+			{ label: 'HOME', url: '#hero' },
+			{ label: 'SERVICES', url: '#servicios' },
+			{ label: 'ABOUT US', url: '#about' },
 		],
 
 		menuBurguer: 'menu-outline',
@@ -25,14 +25,14 @@ export const global = {
 		description:
 			'Experience the finest artisanal coffee, freshly roasted beans, and handcrafted beverages in a warm, welcoming atmosphere that feels like home.',
 		ctaButton: [
-			{ text: 'View Menu', url: '#products', variant: '', id: 1 },
+			{ text: 'View Menu', url: '#servicios', variant: '', id: 1 },
 			{ text: 'Contact Us', url: '#', variant: 'secondary', id: 2 },
 		],
 		image: hero,
 	},
 
-	products: {
-		title: 'Our Products',
+	servicios: {
+		title: 'Our Services',
 		description:
 			'From single-origin coffees to handcrafted pastries, every item is made with passion and the finest ingredients.',
 	},
