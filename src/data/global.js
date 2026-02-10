@@ -19,9 +19,9 @@ export const global = {
 	},
 
 	hero: {
-		title: 'Wake Up to ',
-		span: 'Perfect ',
-		endTitle: 'Coffee',
+		title: ' ',
+		span: 'PUSH ',
+		endTitle: 'YOUR LIMITS',
 		description:
 			'Experience the finest artisanal coffee, freshly roasted beans, and handcrafted beverages in a warm, welcoming atmosphere that feels like home.',
 		ctaButton: [

@@ -33,7 +33,6 @@ export const About = () => {
 						{/* componente social */}
 					</div>
 				</div>
-
 				<div className='About__mission'>
 					<img
 						src={mission.image}
@@ -45,7 +44,6 @@ export const About = () => {
 						<p className='About__mission-description'>{mission.description}</p>
 					</div>
 				</div>
-
 				<div className='About__visit'>
 					<h3 className='About__visit-title'>{businessInfo.title}</h3>
 					<div className='About__visit-cards'>

@@ -2,7 +2,7 @@
 @use '../../styles/mixins' as *;
 
 .Hero {
-    background-color: $very-light-stone;
+    background-color: $very-dark-stone;
     padding: 7rem 1.5rem;
     min-height: 100vh;
     display: flex;
@@ -35,16 +35,17 @@
     }
 
     &__image {
-        max-width: 100%;
+        width: 100%;
         object-fit: cover;
-        min-height: 24rem;
+        max-height: 24rem;
         object-position: center;
         border-radius: 1rem;
+        // obj
     }
 
     &__h1 {
         font-size: 4rem;
-        color: $dark-stone;
+        color: $pure-white;
     }
 
     &__span {
@@ -53,7 +54,7 @@
 
     &__description {
         line-height: 1.7;
-        color: $medium-stone;
+        color: $pure-white;
         font-size: 1.125rem;
     }
 

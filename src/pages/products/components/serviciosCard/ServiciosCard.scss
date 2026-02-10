@@ -4,7 +4,7 @@
 .ServiciosCard {
     padding: 1.5rem;
     border-radius: 1rem;
-    background-color: $very-light-stone;
+    background-color: $very-dark-stone;
     transition: box-shadow .3s ease;
 
     &:hover {
@@ -15,18 +15,12 @@
     }
 
     &__h3 {
-        color: $dark-stone
+        color: $pure-white
     }
 
     &__p {
-        color: $medium-stone
-    }
-
-    &__price {
-        color: $amber-color;
-        font-weight: bold;
-    }
-    
+        color: $pure-white
+    }    
 
     &__media {};
 

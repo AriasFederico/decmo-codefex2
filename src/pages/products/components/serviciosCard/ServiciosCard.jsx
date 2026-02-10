@@ -1,5 +1,5 @@
 import './ServiciosCard.scss';
-export const ServiciosCard = ({ name, description, image, price }) => {
+export const ServiciosCard = ({ name, description, image }) => {
 	return (
 		<div className='ServiciosCard'>
 			<div className='ServiciosCard__container'>
@@ -10,7 +10,6 @@ export const ServiciosCard = ({ name, description, image, price }) => {
 				<div className='ServiciosCard__content'>
 					<h3 className='ServiciosCard__h3'>{name}</h3>
 					<p className='ServiciosCard__p'>{description}</p>
-					<span className='ServiciosCard__price'>{price}</span>
 				</div>
 			</div>
 		</div>
